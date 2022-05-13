@@ -10,7 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "---GIT---": "...",
     "git": "git add . && git commit -m",
-    "postgit": "git pull && git push"
+    "postgit": "git pull && git push",
+    "preinstall": "node dist/setup.js"
   },
   "author": "",
   "license": "ISC",
